@@ -1,2 +1,0 @@
-# Algocraft
-Algocraft (DSA)

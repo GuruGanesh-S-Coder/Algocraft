@@ -1,0 +1,12 @@
+#!/bin/bash
+
+echo "Compiling AlgoCraft project..."
+g++ -std=c++17 -Iinclude src/*.cpp main.cpp -o algocraft
+
+if [ $? -eq 0 ]; then
+    echo "✅ Compilation successful!"
+    echo "--------------------------"
+    ./algocraft
+else
+    echo "❌ Compilation failed!"
+fi
